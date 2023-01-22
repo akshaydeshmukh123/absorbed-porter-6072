@@ -22,7 +22,7 @@ function LowerNavbar() {
     return (
         <div style={responsiveNav}>
           {/* <Box bg='rgb(254,221,0)'> */}
-        <div style={{width:"80%"}}/>
+        <div style={{width:"80%"}}>
         <HStack >
       
       <Box>
@@ -285,10 +285,10 @@ function LowerNavbar() {
       </MenuList>
     </Menu></Box>
     </HStack>
-        
-        
-      </div>
-    )
-}
+        </div>
+      {/* </Box> */}
+        </div>
+        )
+      }
 
-export default  LowerNavbar;
+export default  LowerNavbar
